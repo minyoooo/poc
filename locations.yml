@@ -1,5 +1,7 @@
 defaultStorageMapping: WORK
 fileVersion: 1
 locations:
+  - DENNIS_TEST_STORAGE_LOCATION
+  - DEVELOPMENT
   - SOURCE
   - WORK
