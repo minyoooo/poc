@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  SOURCE:
+    database: ""
+    schema: ""
+  WORK:
+    database: ""
+    schema: ""
+name: Testing
+type: Environment
