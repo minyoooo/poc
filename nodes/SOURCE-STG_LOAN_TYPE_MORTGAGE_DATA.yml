@@ -1,0 +1,374 @@
+fileVersion: 1
+id: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+name: STG_LOAN_TYPE_MORTGAGE_DATA
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: SOURCE
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6de645bd-8a8a-4fd5-bb92-0e4d739cc4d8
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d13bb2bf-2df0-43ef-a073-4a875a46ba6d
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f0b3d0f5-1e41-47a5-87a1-28f49e774153
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_LOANNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 68abd8f6-e014-4452-9ec6-38d4095ff8ab
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5055a5d4-9880-4b1e-b47a-048e04fb99ae
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: varchar
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: LoanNum_Program
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: "\"MORTGAGE_DATA\".\"LOANNUMBER\" || '_' || \"LOAN_TYPE\".\"LOANPROGRAM\""
+        systemColumnType: None
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 141b2528-bce0-4fb1-a883-791f36c08956
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_MILESTONEDATE_UNDERWRITING
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 24503c5d-8f66-41ee-98be-0f34f4174779
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ea9b0616-60db-4955-89f8-e6959091ccb0
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_CURRENTLOANFOLDER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6b0adddf-e489-461e-b01d-a6afbbc20bcc
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75af4fcc-0929-4863-aa67-40ad8da501e1
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_LOANPROGRAM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 89c7c409-4f5e-40a3-8545-eb4e20a78e22
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 06090bad-3cb4-4340-b5bc-b6b87a92878a
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_PRODUCT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e0d85bb3-7e83-4e4b-8f7b-05a20f2f7550
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e4687ae2-64ea-481b-aa4f-97163ff8ea6c
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_OCCUPANCY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0d7e7256-71d4-4fc7-b897-55b3590898ec
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 15292b4f-18bb-4f35-b786-042ed8a62620
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_Doc Type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f34ccd4a-200f-424e-a72c-47f715925f6e
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3b721219-ccc8-454e-a2e9-b20db7bc3fa0
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_Amortization Term
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e2e1c774-56be-4c7c-ac1a-a2bb35de0746
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ecd4f480-a154-4501-87b0-fd5061e862df
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_Interest Only
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 831badca-7d7f-429a-b660-9146c8f4cdd6
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e7bf21c-b700-4d1d-b811-e1cf308e9fbc
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_PPP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: af51c1b7-c3ba-4891-9001-d96f858a7895
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5236c1d7-b38b-413e-9558-c9503f0e7be5
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_203K
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e9367be8-ac44-4a5e-bf25-9c60c701f9d5
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a081fcc3-ea4b-4b34-9e3e-f04c7455cb9e
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_TRADITIONAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 43d43d8a-ec8d-4362-8721-b287031a0fb2
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a8f2caae-1f4e-4c74-8762-36dd4a570d08
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOAN_TYPE_Product - Doc Type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d72cb610-1d60-40da-8d12-95df7cd3261a
+                stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e30447fc-1f0f-464d-8745-c8a9dce887b1
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_BORROWERNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d8b662a3-f2d6-458c-a4f1-4775580d9add
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1852c70e-4a68-4bec-b962-cf9a191ce58b
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_DISBURSEMENTDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 752a3d81-0047-4904-acd4-192dfae863bf
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3e789777-2025-45fe-8823-e76006f72a68
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_LOANTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6f28dbdf-e3bb-4ec4-91ad-b96de024d37d
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 236884dd-51ee-4af5-9692-6833b8ab4615
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_LOANPROGRAM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7a535f55-f982-4b00-9404-3a687bad72d8
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2589049-872f-4ce2-b363-ba39d0a09907
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_LOANINFOCHANNEL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c349e0e9-ce3b-4103-96d5-d753e1b40e34
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e076b789-ee60-475b-83db-a2a7f62caa0e
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_REFERRALSOURCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 12d7e6f6-ad09-4543-a912-2a49a4f90d45
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: eebf4223-cf34-430b-a71f-17abc4996f13
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_APPLICATIONDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d38fb68a-afbb-4e44-8a30-d797748026f6
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b1ebda81-2f55-494c-ac1f-09e8f384f77d
+          stepCounter: f261c5bd-8ea6-4a0a-93a5-7888c4956b50
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MORTGAGTE_DATA_LTV
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 52a7667c-d6c0-4bae-b619-e7a8081d8d99
+                stepCounter: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          LOAN_TYPE: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+          MORTGAGE_DATA: 1bbf40c5-8e3c-4f96-8674-382528a0b463
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SOURCE
+            nodeName: LOAN_TYPE
+          - locationName: SOURCE
+            nodeName: MORTGAGE_DATA
+        join:
+          joinCondition: |-
+            FROM {{ ref('SOURCE', 'LOAN_TYPE') }} "LOAN_TYPE"
+            right JOIN {{ ref('SOURCE', 'MORTGAGE_DATA') }} "MORTGAGE_DATA"
+            ON "LOAN_TYPE"."LOANPROGRAM" = "MORTGAGE_DATA"."LOANPROGRAM"
+        name: STG_LOAN_TYPE_MORTGAGE_DATA
+        noLinkRefs: []
+  name: STG_LOAN_TYPE_MORTGAGE_DATA
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

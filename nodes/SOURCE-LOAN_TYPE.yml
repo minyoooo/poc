@@ -1,0 +1,225 @@
+fileVersion: 1
+id: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+name: LOAN_TYPE
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SOURCE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d13bb2bf-2df0-43ef-a073-4a875a46ba6d
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89c7c409-4f5e-40a3-8545-eb4e20a78e22
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: LOANPROGRAM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e0d85bb3-7e83-4e4b-8f7b-05a20f2f7550
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PRODUCT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0d7e7256-71d4-4fc7-b897-55b3590898ec
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: OCCUPANCY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f34ccd4a-200f-424e-a72c-47f715925f6e
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Doc Type
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e2e1c774-56be-4c7c-ac1a-a2bb35de0746
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Amortization Term
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 831badca-7d7f-429a-b660-9146c8f4cdd6
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Interest Only
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af51c1b7-c3ba-4891-9001-d96f858a7895
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PPP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e9367be8-ac44-4a5e-bf25-9c60c701f9d5
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: 203K
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43d43d8a-ec8d-4362-8721-b287031a0fb2
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: TRADITIONAL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d72cb610-1d60-40da-8d12-95df7cd3261a
+          stepCounter: 44ddf1c4-d40b-4ba4-99a4-cfaceb2b690f
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Product - Doc Type
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: LOAN_TYPE
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
