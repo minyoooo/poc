@@ -132,7 +132,7 @@ operation:
         config: {}
         dataType: VARCHAR(16777216)
         defaultValue: ""
-        description: ""
+        description: "Test Change Bypass"
         name: Interest Only
         nullable: true
         primaryKey: false
