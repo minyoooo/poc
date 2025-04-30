@@ -1,0 +1,207 @@
+fileVersion: 1
+id: c0d9de1c-b971-48e6-b8f6-f1834a463012
+name: STG_MORTGAGE_DATA
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2398c7f7-b375-414f-b4ce-435b691f0606
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOANNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 21308d11-d5be-4156-8e9c-a811798c5b5d
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e0a9837f-f56d-4649-ab99-aeb79e8c6e12
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: BORROWERNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 37c8dd19-5e22-48de-9efa-fc7fb973069d
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3b89e149-c430-404b-944c-850a99c19ba6
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: DISBURSEMENTDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9b99c09a-8f7c-4033-9094-4ee0db1a98ba
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ebd23916-4fb2-4248-9629-08b19e437c8e
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOANTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 88a4f062-066a-4073-af54-c57228f6ace7
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2f54a13a-38f6-4a3f-a4bd-c82229ca497a
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOANPROGRAM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d07093cb-a5c0-43c8-8a82-912e3ea2e69a
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 98e2b790-da1e-454b-91b0-15b112ae876c
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOANINFOCHANNEL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6dbe28e1-0ff8-4745-ad3f-a1e03da045e4
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 212d109a-76a3-4abb-9a1d-a566a29ac145
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: REFERRALSOURCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 59d69dde-38f6-4126-8dbc-95e9853579a1
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d703ad23-f275-4434-8808-d27db40dd458
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: APPLICATIONDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bf87f606-c54f-4652-8bf7-565111d6287a
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d7d1ec26-7002-48a3-aa7e-4336e986834b
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LTV
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 32c60812-023f-4618-b0a8-7c8856399b30
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7098327f-a2cf-45a6-83a5-4f81af373e11
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MILESTONEDATE_UNDERWRITING
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1b346847-3d4b-4d4e-bbcf-e637eb920496
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b49a72fb-0c72-4509-a7db-7af4f6d0c857
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: MILESTONEDATE_UNDERWRITING_UTC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1b346847-3d4b-4d4e-bbcf-e637eb920496
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: CONVERT_TIMEZONE('EST','UTC', try_to_timestamp("MORTGAGE_DATA"."MILESTONEDATE_UNDERWRITING", 'MM/dd/yy hh12:mi pm'))
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 373dab02-467a-4450-ab29-924ffc707c15
+          stepCounter: c0d9de1c-b971-48e6-b8f6-f1834a463012
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: CURRENTLOANFOLDER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b5711753-0b28-4349-bb2c-c37dc63c43e1
+                stepCounter: b6d28fef-b27d-4cf5-bec1-84dbe9f43299
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SOURCE
+            nodeName: MORTGAGE_DATA
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'MORTGAGE_DATA') }} "MORTGAGE_DATA"
+        name: STG_MORTGAGE_DATA
+        noLinkRefs: []
+  name: STG_MORTGAGE_DATA
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

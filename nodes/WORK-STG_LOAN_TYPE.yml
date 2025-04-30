@@ -1,0 +1,193 @@
+fileVersion: 1
+id: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+name: STG_LOAN_TYPE
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ddbdf1e6-02ef-4fff-8560-fc20f33bbba9
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3bc1d56a-15bc-4308-b732-ca3542281ecf
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12c623a4-633a-4aa6-8091-f480b6e3fd9d
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LOANPROGRAM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f8b62693-8643-41d6-a366-853ac0127d12
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ee688d3-2139-4f86-9066-4d9d210d931d
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRODUCT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fd127417-f7b6-4889-8a8b-3e4e4b03f8ac
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 78f7d398-8d3f-4c81-90aa-cbae372b9075
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: OCCUPANCY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 759c38a2-5e47-4b9b-a40c-5cbc82658b33
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d3342304-a10d-4384-9e7a-927b4d0be439
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: Doc Type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 16061930-bec0-4983-823a-24bc8edb0c74
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d17091a7-5d6a-4939-ad0f-18ed7874c246
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: Amortization Term
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 37274c59-7510-4e2a-bd2b-fc6d91cbedc9
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 40db1985-3d8d-4ee2-974b-e404bf0ab70d
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: Interest Only
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e36404fd-5fa6-4682-a8ce-ab019148f28a
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03c819a6-682f-4afd-86cd-b5d067ac75e8
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PPP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 82446dd6-6b01-4745-8035-6fed8e67742e
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 53784040-be8e-4519-9542-f65524bdb1c5
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: 203K
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 89db7778-5703-4270-a2e5-5958f75bb1fe
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ecc26858-7339-4758-a134-abb9afd8b1f4
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: TRADITIONAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e3a5c0e0-3a77-4c7c-a148-adce5c9addfb
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f0b231ed-f2fb-4068-bf5f-25f1811af9d8
+          stepCounter: be3a8968-941a-4c91-be9c-0dfc8a6c87f5
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: Product - Doc Type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4721f422-398f-43ad-b005-948f5fc09337
+                stepCounter: ae5f077e-89a9-42bb-b3cd-bcef75c6576f
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SOURCE
+            nodeName: LOAN_TYPE
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'LOAN_TYPE') }} "LOAN_TYPE"
+        name: STG_LOAN_TYPE
+        noLinkRefs: []
+  name: STG_LOAN_TYPE
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

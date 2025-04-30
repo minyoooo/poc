@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  SOURCE:
+    database: PC_COALESCE_DB
+    schema: SOURCE
+  WORK:
+    database: PC_COALESCE_DB
+    schema: WORK
+name: New Environment
+type: Environment

@@ -1,0 +1,249 @@
+fileVersion: 1
+id: c14de253-9193-45dc-89dd-b7f9476f871b
+name: STG_RECIPE_REVIEW
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d4d6eb09-be9e-4cf1-a13b-326d7571d39b
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5f76d341-d882-4d81-aec1-d9b0d4ece035
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f8b83616-2567-4ad5-bbfc-93a2e628bb37
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: RECIPE_NUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 78488f1c-c4fa-4aeb-93bf-c9ec806d07ba
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 56c3f348-dce9-4f62-a42f-720e542e4601
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: RECIPE_CODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 99cdeff3-558d-4016-af92-12b140832cdc
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d7e286bc-152e-4a98-8e8e-76eaf75406ae
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: RECIPE_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c8b1334e-db6c-40b9-a07f-023208f5415b
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cd11da32-ca33-4f92-a59c-d955c0c53b47
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: COMMENT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fea3d29b-b781-48c0-8656-99c79ffe465d
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5e21363a-a6f2-44bd-b773-f8f0f54d5069
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: USER_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c020bbb3-7793-4e58-bc66-5fda65b368cf
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ba335b0e-70b2-4a14-bcfa-a49db244df50
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: USER_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 539e39dc-43f4-4d42-b428-07577de4585b
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8fbf7531-b573-4241-8139-825a700d426e
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: USER_REPUTATION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 29031d06-5396-49d2-9af1-7977a9a87cba
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9a6643fa-b0ea-4c7a-9d54-ed01ad1b6da5
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: CREATED_AT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e951893f-3dd1-4768-a78c-15877f4a83aa
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 527e5f4d-d004-453d-b055-6cfcdf0775ce
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: REPLY_COUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2e4baf38-4939-4953-a779-ad9040d16996
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f482c597-bae1-4b76-bc8b-c0ddc9f91d11
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: THUMBS_UP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8f2adad1-4aa4-4d1e-9ff8-f9604e391201
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc9ba9a2-b355-4d8c-8c65-c818b1c5a565
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: THUMBS_DOWN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 426e7b4c-f576-422b-8641-33a262421255
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 968108a9-f588-40ed-be91-f3ebbf610342
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: STARS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3a13fee8-31bf-477c-b78c-baff0c5e4e7e
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 22991dd2-e656-41ed-b88c-b994c8ad24b3
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: BEST_SCORE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: aaaecf6a-7781-40c9-bc6b-97296983c6c0
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 93caf5d4-3d23-4e86-a953-143e4b7397dd
+          stepCounter: c14de253-9193-45dc-89dd-b7f9476f871b
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: TEXT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: da165bf1-c9d7-4d6f-89e2-5145927815de
+                stepCounter: 8e83ce36-e929-4936-9eb6-0f61c55c7b74
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SOURCE
+            nodeName: RECIPE_REVIEW
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'RECIPE_REVIEW') }} "RECIPE_REVIEW"
+        name: STG_RECIPE_REVIEW
+        noLinkRefs: []
+  name: STG_RECIPE_REVIEW
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
